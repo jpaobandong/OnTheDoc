@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68AB72116BE10868B87D11DA /* Pods_OnTheDoc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 172BD105DEAA667FF5EFB31A /* Pods_OnTheDoc.framework */; };
+		BE1C4CC22408B0C100A57420 /* AccountTypeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1C4CC12408B0C100A57420 /* AccountTypeVC.swift */; };
+		BE1C4CC42408B15B00A57420 /* PatientSignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1C4CC32408B15B00A57420 /* PatientSignupVC.swift */; };
+		BE7C410123FF672900D0164B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7C410023FF672900D0164B /* AppDelegate.swift */; };
+		BE7C410623FF672900D0164B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7C410423FF672900D0164B /* Main.storyboard */; };
+		BE7C410823FF672C00D0164B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE7C410723FF672C00D0164B /* Assets.xcassets */; };
+		BE7C410B23FF672C00D0164B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7C410923FF672C00D0164B /* LaunchScreen.storyboard */; };
+		BE7C411323FF6A7000D0164B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7C411223FF6A7000D0164B /* LoginVC.swift */; };
+		CD1C7B97241A2AC600FB0FC2 /* ClinicSignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1C7B96241A2AC600FB0FC2 /* ClinicSignupVC.swift */; };
+		CD68CF37241A5C1E00BB5E8A /* PatientAppointmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD68CF36241A5C1E00BB5E8A /* PatientAppointmentVC.swift */; };
+		CD68CF39241A60C600BB5E8A /* PatientClinicsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD68CF38241A60C600BB5E8A /* PatientClinicsVC.swift */; };
+		CD68CF3D241A646C00BB5E8A /* ClinicListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD68CF3C241A646C00BB5E8A /* ClinicListCell.swift */; };
+		CD68CF3F241A6BD900BB5E8A /* SetAppointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD68CF3E241A6BD900BB5E8A /* SetAppointment.swift */; };
+		CD7F04F6241AA3B600A9374F /* AppointmentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7F04F5241AA3B600A9374F /* AppointmentsCell.swift */; };
+		CDBF814D243436AE000D29DC /* ClinicAppointmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBF814C243436AE000D29DC /* ClinicAppointmentVC.swift */; };
+		CDBF814F243436BF000D29DC /* ClinicProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBF814E243436BF000D29DC /* ClinicProfileVC.swift */; };
+		CDBF8153243438D1000D29DC /* ClinicAppointmentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBF8152243438D1000D29DC /* ClinicAppointmentsCell.swift */; };
+		CDC54CAC2432ECB40084E149 /* PatientProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC54CAB2432ECB40084E149 /* PatientProfileVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		172BD105DEAA667FF5EFB31A /* Pods_OnTheDoc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnTheDoc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		245521C1B9779274BE7F0AF0 /* Pods-OnTheDoc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnTheDoc.debug.xcconfig"; path = "Target Support Files/Pods-OnTheDoc/Pods-OnTheDoc.debug.xcconfig"; sourceTree = "<group>"; };
+		748DD36D05C5EA57CA432F26 /* Pods-OnTheDoc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnTheDoc.release.xcconfig"; path = "Target Support Files/Pods-OnTheDoc/Pods-OnTheDoc.release.xcconfig"; sourceTree = "<group>"; };
+		BE1C4CC12408B0C100A57420 /* AccountTypeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTypeVC.swift; sourceTree = "<group>"; };
+		BE1C4CC32408B15B00A57420 /* PatientSignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientSignupVC.swift; sourceTree = "<group>"; };
+		BE7C40FD23FF672900D0164B /* OnTheDoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnTheDoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7C410023FF672900D0164B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE7C410523FF672900D0164B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE7C410723FF672C00D0164B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE7C410A23FF672C00D0164B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE7C410C23FF672C00D0164B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE7C411223FF6A7000D0164B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		CD1C7B96241A2AC600FB0FC2 /* ClinicSignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicSignupVC.swift; sourceTree = "<group>"; };
+		CD68CF36241A5C1E00BB5E8A /* PatientAppointmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientAppointmentVC.swift; sourceTree = "<group>"; };
+		CD68CF38241A60C600BB5E8A /* PatientClinicsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientClinicsVC.swift; sourceTree = "<group>"; };
+		CD68CF3C241A646C00BB5E8A /* ClinicListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicListCell.swift; sourceTree = "<group>"; };
+		CD68CF3E241A6BD900BB5E8A /* SetAppointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetAppointment.swift; sourceTree = "<group>"; };
+		CD7F04F5241AA3B600A9374F /* AppointmentsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsCell.swift; sourceTree = "<group>"; };
+		CDBF814C243436AE000D29DC /* ClinicAppointmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicAppointmentVC.swift; sourceTree = "<group>"; };
+		CDBF814E243436BF000D29DC /* ClinicProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicProfileVC.swift; sourceTree = "<group>"; };
+		CDBF8152243438D1000D29DC /* ClinicAppointmentsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicAppointmentsCell.swift; sourceTree = "<group>"; };
+		CDC54CAB2432ECB40084E149 /* PatientProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientProfileVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE7C40FA23FF672900D0164B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68AB72116BE10868B87D11DA /* Pods_OnTheDoc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22E83A01AD9CDD6020C5433A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				245521C1B9779274BE7F0AF0 /* Pods-OnTheDoc.debug.xcconfig */,
+				748DD36D05C5EA57CA432F26 /* Pods-OnTheDoc.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE7C40F423FF672900D0164B = {
+			isa = PBXGroup;
+			children = (
+				BE7C40FF23FF672900D0164B /* OnTheDoc */,
+				BE7C40FE23FF672900D0164B /* Products */,
+				22E83A01AD9CDD6020C5433A /* Pods */,
+				CE6F4668C2CC5AC369AD5F9A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE7C40FE23FF672900D0164B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE7C40FD23FF672900D0164B /* OnTheDoc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE7C40FF23FF672900D0164B /* OnTheDoc */ = {
+			isa = PBXGroup;
+			children = (
+				CD68CF3B241A631000BB5E8A /* Patients */,
+				CDBF8151243436E2000D29DC /* New Group */,
+				BE1C4CC12408B0C100A57420 /* AccountTypeVC.swift */,
+				BE7C411223FF6A7000D0164B /* LoginVC.swift */,
+				BE7C410423FF672900D0164B /* Main.storyboard */,
+				BE7C410023FF672900D0164B /* AppDelegate.swift */,
+				BE7C410723FF672C00D0164B /* Assets.xcassets */,
+				BE7C410923FF672C00D0164B /* LaunchScreen.storyboard */,
+				BE7C410C23FF672C00D0164B /* Info.plist */,
+			);
+			path = OnTheDoc;
+			sourceTree = "<group>";
+		};
+		CD68CF3B241A631000BB5E8A /* Patients */ = {
+			isa = PBXGroup;
+			children = (
+				CD7F04F5241AA3B600A9374F /* AppointmentsCell.swift */,
+				CD68CF3C241A646C00BB5E8A /* ClinicListCell.swift */,
+				BE1C4CC32408B15B00A57420 /* PatientSignupVC.swift */,
+				CD68CF3E241A6BD900BB5E8A /* SetAppointment.swift */,
+				CD68CF36241A5C1E00BB5E8A /* PatientAppointmentVC.swift */,
+				CD68CF38241A60C600BB5E8A /* PatientClinicsVC.swift */,
+				CDC54CAB2432ECB40084E149 /* PatientProfileVC.swift */,
+			);
+			name = Patients;
+			sourceTree = "<group>";
+		};
+		CDBF8151243436E2000D29DC /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				CD1C7B96241A2AC600FB0FC2 /* ClinicSignupVC.swift */,
+				CDBF814C243436AE000D29DC /* ClinicAppointmentVC.swift */,
+				CDBF814E243436BF000D29DC /* ClinicProfileVC.swift */,
+				CDBF8152243438D1000D29DC /* ClinicAppointmentsCell.swift */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		CE6F4668C2CC5AC369AD5F9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				172BD105DEAA667FF5EFB31A /* Pods_OnTheDoc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE7C40FC23FF672900D0164B /* OnTheDoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7C410F23FF672C00D0164B /* Build configuration list for PBXNativeTarget "OnTheDoc" */;
+			buildPhases = (
+				1D879E49EFC3DB2B0B45D90B /* [CP] Check Pods Manifest.lock */,
+				BE7C40F923FF672900D0164B /* Sources */,
+				BE7C40FA23FF672900D0164B /* Frameworks */,
+				BE7C40FB23FF672900D0164B /* Resources */,
+				43882E5F938DC48D6690D0B9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnTheDoc;
+			productName = OnTheDoc;
+			productReference = BE7C40FD23FF672900D0164B /* OnTheDoc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE7C40F523FF672900D0164B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "CITE Student";
+				TargetAttributes = {
+					BE7C40FC23FF672900D0164B = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = BE7C40F823FF672900D0164B /* Build configuration list for PBXProject "OnTheDoc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE7C40F423FF672900D0164B;
+			productRefGroup = BE7C40FE23FF672900D0164B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE7C40FC23FF672900D0164B /* OnTheDoc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE7C40FB23FF672900D0164B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7C410B23FF672C00D0164B /* LaunchScreen.storyboard in Resources */,
+				BE7C410823FF672C00D0164B /* Assets.xcassets in Resources */,
+				BE7C410623FF672900D0164B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D879E49EFC3DB2B0B45D90B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnTheDoc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43882E5F938DC48D6690D0B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnTheDoc/Pods-OnTheDoc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnTheDoc/Pods-OnTheDoc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OnTheDoc/Pods-OnTheDoc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE7C40F923FF672900D0164B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1C7B97241A2AC600FB0FC2 /* ClinicSignupVC.swift in Sources */,
+				BE7C411323FF6A7000D0164B /* LoginVC.swift in Sources */,
+				CD68CF37241A5C1E00BB5E8A /* PatientAppointmentVC.swift in Sources */,
+				CD68CF3D241A646C00BB5E8A /* ClinicListCell.swift in Sources */,
+				BE1C4CC42408B15B00A57420 /* PatientSignupVC.swift in Sources */,
+				CDBF8153243438D1000D29DC /* ClinicAppointmentsCell.swift in Sources */,
+				CD68CF39241A60C600BB5E8A /* PatientClinicsVC.swift in Sources */,
+				CDBF814D243436AE000D29DC /* ClinicAppointmentVC.swift in Sources */,
+				CDBF814F243436BF000D29DC /* ClinicProfileVC.swift in Sources */,
+				CD68CF3F241A6BD900BB5E8A /* SetAppointment.swift in Sources */,
+				BE7C410123FF672900D0164B /* AppDelegate.swift in Sources */,
+				CDC54CAC2432ECB40084E149 /* PatientProfileVC.swift in Sources */,
+				BE1C4CC22408B0C100A57420 /* AccountTypeVC.swift in Sources */,
+				CD7F04F6241AA3B600A9374F /* AppointmentsCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE7C410423FF672900D0164B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE7C410523FF672900D0164B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE7C410923FF672C00D0164B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE7C410A23FF672C00D0164B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE7C410D23FF672C00D0164B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE7C410E23FF672C00D0164B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE7C411023FF672C00D0164B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 245521C1B9779274BE7F0AF0 /* Pods-OnTheDoc.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OnTheDoc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UPANG.OnTheDoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE7C411123FF672C00D0164B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 748DD36D05C5EA57CA432F26 /* Pods-OnTheDoc.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OnTheDoc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UPANG.OnTheDoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE7C40F823FF672900D0164B /* Build configuration list for PBXProject "OnTheDoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7C410D23FF672C00D0164B /* Debug */,
+				BE7C410E23FF672C00D0164B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE7C410F23FF672C00D0164B /* Build configuration list for PBXNativeTarget "OnTheDoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7C411023FF672C00D0164B /* Debug */,
+				BE7C411123FF672C00D0164B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE7C40F523FF672900D0164B /* Project object */;
+}
